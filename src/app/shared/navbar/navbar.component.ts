@@ -59,16 +59,28 @@ export class NavbarComponent implements OnInit {
             return false;
         }
     }
-    isDocumentation() {
+    isServices() {
       var titlee = this.location.prepareExternalUrl(this.location.path());
       if(titlee.charAt(0) === '#'){
           titlee = titlee.slice( 1 );
       }
-        if( titlee === '/documentation' ) {
+        if( titlee === '/our-services' ) {
             return true;
         }
         else {
             return false;
         }
     }
+    isAboutUs() {
+        var titlee = this.location.prepareExternalUrl(this.location.path());
+        if(titlee.charAt(0) === '#'){
+            titlee = titlee.slice( 1 );
+        }
+          if( titlee === '/about-us' ) {
+              return true;
+          }
+          else {
+              return false;
+          }
+      }
 }

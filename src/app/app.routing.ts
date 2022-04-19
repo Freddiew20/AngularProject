@@ -5,10 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { LandingComponent } from './examples/landing/landing.component';
 import { ServicesComponent } from './examples/services/services.component';
+import { AboutUsComponent } from './examples/about/about.component';
 
 const routes: Routes =[
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'our-services',     component: ServicesComponent },
+    { path: 'about-us',     component: AboutUsComponent },
     { path: 'home',             component: LandingComponent },
 ];
 
