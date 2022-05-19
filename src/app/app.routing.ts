@@ -3,9 +3,9 @@ import { CommonModule, } from '@angular/common';
 import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
-import { LandingComponent } from './examples/landing/landing.component';
-import { ServicesComponent } from './examples/services/services.component';
-import { AboutUsComponent } from './examples/about/about.component';
+import { LandingComponent } from './screens/landing/landing.component';
+import { ServicesComponent } from './screens/services/services.component';
+import { AboutUsComponent } from './screens/about/about.component';
 
 const routes: Routes =[
     { path: '', redirectTo: 'home', pathMatch: 'full' },

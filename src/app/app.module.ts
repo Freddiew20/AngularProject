@@ -9,21 +9,24 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
-import { ExamplesModule } from './examples/examples.module';
+import { ScreensModule } from './screens/screens.module';
+import { ProfileCardComponent } from './screens/profile-card/profile-card.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    // ProfileCardComponent
+
   ],
   imports: [
     BrowserModule,
     NgbModule,
     FormsModule,
     RouterModule,
-    ExamplesModule,
+    ScreensModule,
     AppRoutingModule,
   ],
   providers: [],

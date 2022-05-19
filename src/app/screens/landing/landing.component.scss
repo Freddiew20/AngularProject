@@ -11,7 +11,16 @@
     color: black;
 }
 
-.card-description{
+.navigation-example{
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7259278711484594) 100%);
+
+}
+.backimg{
+	background-image: url("./../../../assets/img/background2.jpg");
+	// background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 84%, rgba(0,0,0,0) 100%);
+}
+
+.card-description{ 
     color: white !important;
 }
 
